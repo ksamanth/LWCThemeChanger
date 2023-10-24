@@ -1,0 +1,7 @@
+<template>
+    <div class="childcontainer">
+        <h1>THEME CHANGER</h1>
+        <div style="width: 250px; padding:10px;"><lightning-combobox label="Pick a theme" options={themes} value={selectedTheme} onchange={handleChange}></lightning-combobox></div>
+        <c-child-inheriting-theme></c-child-inheriting-theme>
+    </div>
+</template>

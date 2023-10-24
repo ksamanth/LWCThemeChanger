@@ -1,0 +1,48 @@
+:host {
+    background-color: white;
+    color: black;
+}
+
+.textbox {
+    width: 100%;
+    text-align: justify;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.cubecontainer {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.cube {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.primarycolor {
+    background-color: var(--bg-color);
+}
+
+.secondarycolor {
+    background-color: var(--main-color);
+}
+
+.textcolor {
+    background-color: var(--text-color);
+}
+
+.subcolor {
+    background-color: var(--sub-color);
+}
+
+.errorcolor {
+    background-color: var(--error-color);
+}
